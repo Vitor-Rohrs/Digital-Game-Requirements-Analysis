@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Cinzel", serif; 
+    color:rgb(41, 12, 34);   
+    text-align: center;
+}   
+
+h1{
+    font-size: 70px;
+    color:rgb(41, 12, 34);
+    text-shadow: 0 0 3px rgb(74, 25, 63);
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(250, 249, 247);
+    display: flex;
+    justify-content: center;
+}
+select{
+    cursor: pointer;
+    width: 20px;
+    border: none; 
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+input[type="search"]{
+    border-radius: 5px;
+    border: 2px solid rgb(74, 25, 63);
+}
+div{
+    min-height: 250px;
+    max-width: 450px;
+    min-block-size: 400px;
+    padding: 25px;
+    background: rgb(250, 249, 247);
+    box-shadow: 0px 0px 20px rgb(74, 25, 63);
+    border-radius: 50px;
+    border: solid rgb(74, 25, 63);
+    margin: 0px;
+    padding: 50px;
+}
+
+#cabeçalho{
+    box-sizing: content-box;
+    min-height: 500px;
+    max-width: 5000px;
+    min-block-size: 0px;
+    background: rgb(250, 249, 247);
+    box-shadow: 0px 0px 20px rgb(74, 25, 63);
+    border-radius: 0px;
+    border: solid rgb(74, 25, 63);
+    padding: 5px;
+    margin: 10px;
+}
+input::placeholder{
+    color: rgb(74, 25, 63);
+}
+
+#noturno{
+    min-width: 109px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    position:relative;
+    z-index: 1;
+    transition: color 0.3s ease;
+}
+
+#noturno::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(246, 249, 252);
+    transition: width 0.4s ease;
+    z-index: -1;
+}
+
+#noturno span{
+    position: relative;
+    z-index: 2;
+}
+
+#noturno:hover::after{
+    width:100%;
+}
+
+#noturno:hover{
+    color:rgb(74, 25, 63);
+    border: 1px solid rgb(41, 12, 34)
+}
