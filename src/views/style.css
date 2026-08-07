@@ -2,41 +2,44 @@
 *{
     box-sizing: border-box;
     font-family: "Cinzel", serif; 
-    color:rgb(41, 12, 34);   
+    color:var(--text);   
     text-align: center;
 }   
 
 h1{
     font-size: 70px;
-    color:rgb(41, 12, 34);
+    color:var('--text');
     text-shadow: 0 0 3px rgb(74, 25, 63);
     padding: 0px;
     margin: 0px;
 }
 
 body{
-    background-color: rgb(250, 249, 247);
+    background-color: var(--background);
     display: flex;
     justify-content: center;
 }
 select{
     cursor: pointer;
     width: 20px;
-    border: none; 
+    border-color: var(--text); 
     border-radius: 5px;
     min-width: 150px;
+    background-color: transparent;
+
 }
 
 input[type="search"]{
     border-radius: 5px;
     border: 2px solid rgb(74, 25, 63);
+    background-color: transparent;
 }
 div{
     min-height: 250px;
     max-width: 450px;
     min-block-size: 400px;
     padding: 25px;
-    background: rgb(250, 249, 247);
+    background: var(--background);;
     box-shadow: 0px 0px 20px rgb(74, 25, 63);
     border-radius: 50px;
     border: solid rgb(74, 25, 63);
@@ -49,7 +52,7 @@ div{
     min-height: 500px;
     max-width: 5000px;
     min-block-size: 0px;
-    background: rgb(250, 249, 247);
+    background: var(--background);
     box-shadow: 0px 0px 20px rgb(74, 25, 63);
     border-radius: 0px;
     border: solid rgb(74, 25, 63);
@@ -57,13 +60,13 @@ div{
     margin: 10px;
 }
 input::placeholder{
-    color: rgb(74, 25, 63);
+    color: var(--text); ;
 }
 
 #noturno{
     min-width: 109px;
-    background-color: black;
-    color: white;
+    background-color: var(--back-noturno);
+    color: var(--color-noturno);
     border-radius: 5px;
     box-sizing: border-box;
     border: none;
@@ -81,7 +84,7 @@ input::placeholder{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgb(246, 249, 252);
+    background-color: var(--color-noturno);
     transition: width 0.4s ease;
     z-index: -1;
 }
@@ -98,4 +101,17 @@ input::placeholder{
 #noturno:hover{
     color:rgb(74, 25, 63);
     border: 1px solid rgb(41, 12, 34)
+}
+
+:root{
+    --background-light: rgb(250, 249, 247);
+    --background-dark: black;
+    --background: var(--background-light);
+    --text-light: rgb(41, 12, 34); 
+    --text-dark: rgb(87, 12, 64); 
+    --text: var(--text-light);
+    --noturno-dark: black;
+    --noturno-light: rgb(250, 249, 247);
+    --back-noturno: var(--noturno-dark);
+    --color-noturno: var(--noturno-light);
 }
