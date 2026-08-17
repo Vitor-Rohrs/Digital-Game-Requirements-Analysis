@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Protest+Revolution&display=swap');
 *{
     box-sizing: border-box;
     font-family: "Cinzel", serif; 
@@ -35,16 +35,36 @@ input[type="search"]{
     background-color: transparent;
 }
 div{
-    min-height: 250px;
-    max-width: 450px;
+    min-height: auto;
+    max-width: auto;
     min-block-size: 400px;
-    padding: 25px;
     background: var(--background);;
     box-shadow: 0px 0px 20px rgb(74, 25, 63);
     border-radius: 50px;
     border: solid rgb(74, 25, 63);
     margin: 0px;
     padding: 50px;
+    overflow: hidden;
+}
+
+#catalogo{
+    border:none;
+    box-shadow: none;
+    padding: 0px;
+    margin: 10px;    
+}
+
+img{
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    border: solid rgb(74, 25, 63);;
+    box-shadow: 0px 0px 20px rgb(74, 25, 63);
+    opacity: var(--oppaclck);
+    cursor: pointer;
+}
+img:hover{
+    opacity: var(--oppadflt);
 }
 
 #cabeçalho{
@@ -64,7 +84,7 @@ input::placeholder{
 }
 
 #noturno{
-    min-width: 109px;
+    min-width: 100px;
     background-color: var(--back-noturno);
     color: var(--color-noturno);
     border-radius: 5px;
@@ -89,11 +109,6 @@ input::placeholder{
     z-index: -1;
 }
 
-#noturno span{
-    position: relative;
-    z-index: 2;
-}
-
 #noturno:hover::after{
     width:100%;
 }
@@ -105,13 +120,16 @@ input::placeholder{
 
 :root{
     --background-light: rgb(250, 249, 247);
-    --background-dark: black;
+    --background-dark: rgb(12, 12, 12);
     --background: var(--background-light);
     --text-light: rgb(41, 12, 34); 
-    --text-dark: rgb(87, 12, 64); 
+    --text-dark: rgb(92, 24, 72); 
     --text: var(--text-light);
-    --noturno-dark: black;
+    --noturno-dark: rgb(12, 12, 12);
     --noturno-light: rgb(250, 249, 247);
     --back-noturno: var(--noturno-dark);
     --color-noturno: var(--noturno-light);
+    --oppadflt: 90%;
+    --oppaclck: 55%;
+    --oppanow: var(--oppadflt); 
 }
