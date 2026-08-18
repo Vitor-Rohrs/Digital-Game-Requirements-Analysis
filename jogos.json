@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "nome": "Grand Theft Auto V",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core 2 Quad Q6600 / AMD Phenom 9850",
+      "memoria": "4 GB RAM",
+      "placaVideo": "NVIDIA 9800 GT 1 GB / AMD HD 4870 1 GB"
+    }
+  },
+  {
+    "id": 2,
+    "nome": "Cyberpunk 2077",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i7-6700 / Ryzen 5 1600",
+      "memoria": "12 GB RAM",
+      "placaVideo": "GTX 1060 6 GB / Radeon RX 580 8 GB"
+    }
+  },
+  {
+    "id": 3,
+    "nome": "Red Dead Redemption 2",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-2500K / AMD FX-6300",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 770 2 GB / Radeon R9 280 3 GB"
+    }
+  },
+  {
+    "id": 4,
+    "nome": "The Witcher 3: Wild Hunt",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/292030/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-2500K / AMD Phenom II X4 940",
+      "memoria": "6 GB RAM",
+      "placaVideo": "GTX 660 / Radeon HD 7870"
+    }
+  },
+  {
+    "id": 5,
+    "nome": "Elden Ring",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-8400 / Ryzen 3 3300X",
+      "memoria": "12 GB RAM",
+      "placaVideo": "GTX 1060 3 GB / Radeon RX 580 4 GB"
+    }
+  },
+  {
+    "id": 6,
+    "nome": "Minecraft",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1672970/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i3-3210 / AMD A8-7600",
+      "memoria": "4 GB RAM",
+      "placaVideo": "Intel HD Graphics 4000"
+    }
+  },
+  {
+    "id": 7,
+    "nome": "Counter-Strike 2",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/730/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-750",
+      "memoria": "8 GB RAM",
+      "placaVideo": "DirectX 11 com 1 GB VRAM"
+    }
+  },
+  {
+    "id": 8,
+    "nome": "Forza Horizon 5",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-4460 / Ryzen 3 1200",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 970 / Radeon RX 470"
+    }
+  },
+  {
+    "id": 9,
+    "nome": "God of War",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1593500/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-2500K / Ryzen 3 1200",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 960 4 GB / Radeon R9 290X"
+    }
+  },
+  {
+    "id": 10,
+    "nome": "Hogwarts Legacy",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/990080/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-6600 / Ryzen 5 1400",
+      "memoria": "16 GB RAM",
+      "placaVideo": "GTX 960 4 GB / Radeon RX 470 4 GB"
+    }
+  },
+  {
+    "id": 11,
+    "nome": "Resident Evil 4",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2050650/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-7500 / Ryzen 3 1200",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 1050 Ti / Radeon RX 560"
+    }
+  },
+  {
+    "id": 12,
+    "nome": "Baldur's Gate 3",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-4690 / Ryzen 3 1200",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 970 / RX 480"
+    }
+  },
+  {
+    "id": 13,
+    "nome": "DOOM Eternal",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/782330/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-2500K / Ryzen 3 2200G",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 1050 Ti / Radeon R9 280"
+    }
+  },
+  {
+    "id": 14,
+    "nome": "Assassin's Creed Valhalla",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2208920/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Intel Core i5-4460 / Ryzen 3 1200",
+      "memoria": "8 GB RAM",
+      "placaVideo": "GTX 960 4 GB / Radeon R9 380"
+    }
+  },
+  {
+    "id": 15,
+    "nome": "Hades",
+    "capa": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1145360/header.jpg",
+    "requisitosMinimos": {
+      "processador": "Dual Core 2.4 GHz",
+      "memoria": "4 GB RAM",
+      "placaVideo": "1 GB VRAM com suporte a DirectX 10+"
+    }
+  }
+]
