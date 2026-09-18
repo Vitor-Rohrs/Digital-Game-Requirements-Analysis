@@ -2,7 +2,8 @@ const corpo = document.getElementById("corpo");
 const catalogo = document.getElementById("catalogo");
 const campobusca = document.getElementById('busca');
 let info = [];
-async function carregardados() {
+
+/*async function carregardados() {
     try{
         const resposta = await fetch("../../jogos.json");
         if(!resposta.ok){
@@ -12,7 +13,18 @@ async function carregardados() {
     } catch (erro){
         console.error('Ocorreu um erro:', erro)
     }
+    }*/
+async function carregardados(){
+    try{
+        const resposta = await fetch("../../jogos.json");
+        if(!resposta.ok){
+            throw new Error('Erro na requisição');
+        }
+        info = await resposta.json();
+    }catch(erro){
+        console.error('Ocorreu um erro:', erro)
     }
+}
     
     
 campobusca.addEventListener('input', () =>{
@@ -51,8 +63,6 @@ function comparacao(item){
     `;
     corpo.appendChild(comp);
 }
-
-const elemento = document.que
 
 let darkmode = localStorage.getItem("darkmode") ==="true";
 
